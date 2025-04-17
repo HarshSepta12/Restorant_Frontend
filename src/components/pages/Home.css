@@ -1,0 +1,174 @@
+.pos{
+     position: sticky;
+     background-color: #0f172b;
+     top: 1px;
+     z-index: 1;
+}
+
+.container-fluid{
+     width: 100% !important;
+     height: 100% !important;
+}
+.bgc {
+     background-image:linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("../public/img/bg-hero.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%; 
+     background-position: center;
+     background-attachment:scroll; 
+  
+ }
+ 
+.nav-heading{
+  color: orange;
+}
+li{
+     list-style: none;
+     color: orange;
+}
+.book-btn{
+     background-color: orange;
+     color: white;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+}
+.text-bgc{
+     font-weight: 800;
+     line-height: 1.2;
+}
+.display-3{
+     font-family: "Nunito", sans-serif;
+}
+.Animated-img{
+     animation: rotateImage 50s linear infinite;
+}
+@keyframes rotateImage {
+     from {
+       transform: rotate(0deg);
+     }
+     to {
+       transform: rotate(360deg);
+     }
+   }
+
+   .card{
+     width: 260px;
+     transition: all 0.4s linear;
+   }
+   .icon{
+     font-size: 60px;
+     font-family: "Nunito", sans-serif;
+     color: orange;
+   }
+   .card-title{
+     font-size: 24px;
+     font-weight: 600;
+     font-family: "Nunito", sans-serif;
+   
+   }
+.card:hover{
+     
+     background-color: orange;
+     color: white;
+     & .icon{
+          color: white;
+     }
+}
+.marg{
+     margin-top: 50px !important;
+}
+   .about-heading{
+     font-family: "Pacifico", sans-serif;
+     color:  #FEA116 ;
+     font-weight: 400;
+     font-size: 1.78rem;
+     position: relative;
+    
+   }
+   .about-heading::after{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: 120px;
+    margin-top: -1px;
+    background:#FEA116
+   }
+   .about-title{
+     font-family: "Nunito", sans-serif;
+   }
+.left-border{
+   border-left: 4px solid #FEA116;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   gap: 20px;
+}
+.left-border-child{
+     border-left: 4px solid #FEA116;
+}
+.Read-btn{
+     margin-top: 30px;
+     background-color: #FEA116;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     text-align: center;
+     padding: 16px;
+     text-transform: capitalize;
+     width: 200px;
+}
+.food-menu{
+     color: #FEA116;
+     font-family: "Pacifico", sans-serif;
+     position: relative;
+}
+.food-menu::before{
+     position: absolute;
+     content: "";
+     width: 45px;
+     height: 2px;
+     top: 50%;
+    margin-left: -60px;
+     margin-top: -1px;
+     background:#FEA116
+}
+.food-menu::after{
+     position: absolute;
+     content: "";
+     width: 45px;
+     height: 2px;
+     top: 50%;
+     margin-left: 10px !important;
+     margin-top: -1px;
+     background:#FEA116
+}
+.most{
+     font-family: "Nunito", sans-serif;
+     font-weight: 800 !important;
+}
+a{
+     text-decoration: none !important;
+}
+.Doller-style{
+     color: #FEA116;
+     font-weight: bold;
+     font-size: 22px;
+}
+.dblock{
+     display: block !important;
+}
+.dnone{
+     display: none !important;
+}
+.btn-tab{
+     border: none;
+     background-color: transparent;
+}
+.active{
+     border-bottom:2px solid #FEA116;
+}
+.bgdark{
+     background-color: #0f172b !important;
+}
